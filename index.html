@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+
+</head>
+<body>
+
+    <div class="body-wrapper">
+        <header class="header">
+            <h1>My Library</h1>
+            <button class="btn-header">ADD NEW BOOK</button>
+        </header>
+        <hr>
+
+
+        <div class="container style">
+        </div>
+            
+        <dialog> 
+                <div class="form-container">
+                    <p class="button btn-close">
+                        <button>X</button>
+                    </p>
+                    <form method="dialog">
+                        <div class="input-style item1">
+                            <label for="title">Title:</label>
+                            <input id="title" type="text" minlength="5" maxlength="50" required>
+                        </div>
+
+                        <div class="input-style item2">
+                            <label for="author">Author:</label>
+                            <input id="author" type="text" min="5" max="50" required>
+                        </div>
+
+                        <div class="input-style item3">
+                            <label for="pages">Pages:</label>
+                            <input id="pages" type="number" min="1" required>
+                        </div>
+
+                        <div class="input-style item4">
+                            <p class='checkbox'>
+                                <label for="read">Read?</label>
+                                <input id="read" type="checkbox">
+                            </p>
+                        </div>
+
+                        <div class="item5">
+                            <input type="submit" id="submit" value="Add Book"></input>
+                        </div>
+
+                    </form>
+                </div>
+        </dialog>
+        
+    </div>
+
+
+    
+</body>
+</html>
